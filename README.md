@@ -15,3 +15,6 @@ var rek = require('rek');
 var xyz = rek('x/y/z');
 
 console.log(rek.root); // the path the project root
+```
+
+Works in browserify too!
