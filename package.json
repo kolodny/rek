@@ -1,6 +1,6 @@
 {
   "name": "rek",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "require without relative paths",
   "main": "index.js",
   "scripts": {

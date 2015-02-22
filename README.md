@@ -13,3 +13,5 @@ var rek = require('rek');
 // in file project/a/b/c/d/index.js
 // we want project/x/y/z/index.js
 var xyz = rek('x/y/z');
+
+console.log(rek.root); // the path the project root
