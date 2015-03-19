@@ -18,3 +18,7 @@ console.log(rek.root); // the path the project root
 ```
 
 Works in browserify too!
+
+## Warning
+
+This will seriously break if you have multiple modules using rek and you do a `npm dedupe`
