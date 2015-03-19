@@ -1,4 +1,5 @@
-var root = __dirname.slice(0, __dirname.lastIndexOf('/node_modules/') + 1);
+var dirname = __dirname.replace(/\\/g, '/');
+var root = dirname.slice(0, dirname.lastIndexOf('/node_modules/') + 1);
 
 if (process.browser) {
   root = './' + root;

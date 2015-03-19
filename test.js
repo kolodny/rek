@@ -190,6 +190,7 @@ describe('rek', function() {
     });
 
     it('can require nested modules without the crazy ../../', function(done) {
+      this.timeout(10000);
       mkdirp.sync('test/a/b/c/d');
       fs.writeFileSync(
         'test/a/b/c/d/index.js',
